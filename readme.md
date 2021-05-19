@@ -1,6 +1,6 @@
-# Blaze Marketplace Ecommerce site
+# Cloud School eLearning 
 
-This is a Python Django eCommerce system for trading of products over the internet. The system allows users to browse, search and add products to a shopping cart. 
+This is a Python Django CMS system for online learning. The system allows teachers to create content and for students to learn. 
 
 Users can also register to the system. Once registered a customer can now  get the following services:
 
