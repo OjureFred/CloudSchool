@@ -12,7 +12,7 @@ class OwnerMixin(object):
         return qs.filter(owner=self.request.user)
 
 class OwnerEditMixin(object):
-    def form_valid(sef, form):
+    def form_valid(self, form):
         form.instance.owner = self.request.user
         return super().form_valid(form)
 
