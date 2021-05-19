@@ -1,6 +1,6 @@
 # Cloud School eLearning 
 
-This is a Python Django CMS system for online learning. The system allows teachers to create content and for students to learn. 
+This is a Python Django CMS system for online learning. The system allows instructors to create courses and manage content. and for students to learn. 
 
 Users can also register to the system. Once registered a customer can now  get the following services:
 
