@@ -7,7 +7,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMix
 from django.forms.models import modelform_factory
 from django.apps import apps
 
-from .models import Course, Module, ContentType
+from .models import Course, Module, Content
 from .forms import ModuleFormSet
 
 class OwnerMixin(object):
