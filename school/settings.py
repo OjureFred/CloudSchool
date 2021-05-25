@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'embed_video',
     'rest_framework',
     'chat', 
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -78,6 +79,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'school.wsgi.application'
+
+ASGI_APPLICATION = 'school.routing.application'
 
 
 # Database
